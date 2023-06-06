@@ -2,10 +2,10 @@
 
 # Appends each letter and concatenate
 output = ""
-# prints numbers from 0 to 99.separated by ,, followed by a space
+# Prints numbers from 0 to 99, separated by ", ", with the last number followed by a new line
 for number in range(100):
     if number == 99:
         output += "{:02}".format(number)
     else:
-        output += "{:02}, ".format(number)
-    print("{:02}".format(number), end=", ")
+        output += "{:02}".format(number)
+    print( "{:02},".format(number), end="")
