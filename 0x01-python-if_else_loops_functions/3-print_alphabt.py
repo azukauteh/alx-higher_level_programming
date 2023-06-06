@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
-# Print all the alphabet  letters
+# Print all the alphabet  letters except q and e
 for letter in range(97, 123):
-# except q and e
   if chr(letter) != 'q' and chr(letter) != 'e':
        print("{}".format(chr(letter)))
