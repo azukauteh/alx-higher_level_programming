@@ -8,4 +8,4 @@ for number in range(100):
         output += "{:02}".format(number)
     else:
         output += "{:02}, ".format(number)
-    print("{0:02}".format(number), end=", ")
+    print("{:02}".format(number), end=", ")
