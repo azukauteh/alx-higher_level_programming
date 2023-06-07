@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 
-# Appends each letter and concatenate
+# Appends each number and concatenates them
 output = ""
-# Prints numbers from 0 to 99, separated by ",followed by a new line
+# Prints numbers from 0 to 99, separated by a comma followed by a new line
 for number in range(100):
-    if number == 99:
-        output += "{:02}".format(number)
-    else:
-        output += "{:02}".format(number)
-    print("{:02},".format(number), end="")
+    output += "{:02}".format(number)
+    if number != 99:
+        output += ", "
+print(output)
