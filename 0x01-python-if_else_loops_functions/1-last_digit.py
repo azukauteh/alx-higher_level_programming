@@ -6,6 +6,8 @@ number = random.randint(-10000, 10000)
 
 # Calculate the last digit of the number
 digit = abs(number) % 10
+if number < 0:
+    digit = -digit
 
 # Print the output statement
 print("Last digit of {} is {} and is ".format(number, digit), end="")
