@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-
+# function prototype
 def uppercase(string):
-    """Print a string in uppercase."""
+# Print a string in uppercase.
     for char in string:
         if ord(char) >= 97 and ord(char) <= 122:
             char = chr(ord(char) - 32)
