@@ -11,4 +11,4 @@ def uppercase(string):
         uppercase_str += uppercase_char
 
     # Print the uppercase string
-    print(uppercase_str)
+    print("{}".format(uppercase_str))
