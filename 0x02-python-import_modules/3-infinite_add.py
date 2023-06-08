@@ -1,11 +1,18 @@
 #!/usr/bin/python3
 
 import sys
+from decimal import Decimal
 
 if __name__ == "__main__":
-    """Prints the sum of all arguments as a string."""
+    """Prints the sum of all valid integer or decimal arguments as a string."""
 
-    total = 0
+    total = Decimal(0)
     for i in range(len(sys.argv) - 1):
-        total += int(sys.argv[i + 1])
-    print("The sum of the arguments is: {}".format(total) + "\n")
+        try:
+            arg = sys.argv[i + 1]
+            number = Decimal(arg)
+            total += number
+        except ValueError:
+            print("Invalid argument: {}. Skipping...".format(arg))
+
+    print("The sum of the valid numeric arguments is: {}".format(total))
