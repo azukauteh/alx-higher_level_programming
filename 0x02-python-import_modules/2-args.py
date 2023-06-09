@@ -10,5 +10,5 @@ elif count == 1:
     print("There is 1 argument:")
 else:
     print("There are {} arguments:".format(count))
-for i, arg in enumerate(sys.argv[1:]):
+for i in range(count):
     print("{}: {}".format(i + 1, arg))
