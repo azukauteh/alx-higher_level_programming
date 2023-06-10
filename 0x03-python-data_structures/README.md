@@ -1,6 +1,6 @@
 # Python - Data Structures: Lists, Tuples
 
-This repository contains Python code examples and explanations for two fundamental data structures in Python: lists and tuples. The code samples provided demonstrate various operations and manipulations that can be performed on these data structures.
+This page  contains Python code examples and explanations for two fundamental data structures in Python: lists and tuples. The code samples provided demonstrate various operations and manipulations that can be performed on these data structures.
 
 ## Table of Contents
 
