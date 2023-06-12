@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def sub(a, b):
+def add(a, b):
     """My addition function
 
     Args:
@@ -7,6 +7,6 @@ def sub(a, b):
         b: second integer
 
     Returns:
-        The return value. a - b
+        The return value. a + b
     """
-    return (a - b)
+    return (a + b)
