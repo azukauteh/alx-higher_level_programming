@@ -34,9 +34,9 @@ The main concepts covered in this module include:
 
 - **Encapsulation:** Encapsulation is the bundling of data and methods within a class. It hides the internal implementation details and provides controlled access to the object's attributes and methods.
 
-## Repository Structure
+## Directory Structure
 
-The repository is organized as follows:
+The directory is organized as follows:
 
 ```
 /
