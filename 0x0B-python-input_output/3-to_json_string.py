@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""defines JSON representation of a string object"""
+"""defines JSON representation of a string function"""
 
 
 def to_json_string(my_obj):
