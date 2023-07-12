@@ -1,8 +1,14 @@
 #!/usr/bin/python3
 
-"""Defines a function that returns the dictionary description """
+""" Module that returns the dictionary description with a simple
+data structure for a JSON serialization of an object
+"""
 
 
 def class_to_json(obj):
-    """Return the dictionary represntation of a simple data structure."""
-    return obj.__dict_
+    """ Function that retuns the dictionary description of an obj """
+
+    res = {}
+    if hasattr(obj, "__dict__"):
+        res = obj.__dict__.copy()
+    return res
