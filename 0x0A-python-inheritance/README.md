@@ -1,7 +1,7 @@
 # 0x0A. Python - Inheritance
 
 ## Description
-This directory contains Python programs written for ALX_africa software engoneering 0x0A. Python - Inheritance project. The code in this project demonstrates the concept of inheritance in Python.
+This directory contains Python programs written for ALX_africa software engineering 0x0A. Python - Inheritance project. The code in this project demonstrates the concept of inheritance in Python.
 
 ## Learning Objectives
 - What is a superclass, baseclass, or parentclass?
