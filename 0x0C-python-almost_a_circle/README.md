@@ -1,6 +1,6 @@
 # 0x0C. Python - Almost a Circle
 
-This directory contains Python programs written for ALX_africa SOftware Engineering, 0x0C. Python - Almost a Circle project. The code in this project focuses on object-oriented programming concepts in Python, with a specific emphasis on classes, inheritance, and data encapsulation.
+This directory contains Python programs written for ALX_africa Software Engineering, 0x0C. Python - Almost a Circle project. The code in this project focuses on object-oriented programming concepts in Python, with a specific emphasis on classes, inheritance, and data encapsulation.
 
 ## Files
 
