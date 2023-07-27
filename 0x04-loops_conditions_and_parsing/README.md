@@ -1,6 +1,6 @@
 # 0x04. Loops, Conditions, and Parsing
 
-![Author](https://img.shields.io/badge/Author-YourName-blue.svg)
+![Author](https://img.shields.io/badge/Author-azukauteh-blue.svg)
 
 Welcome to the 0x04 directory on Loops, Conditions, and Parsing! This directory contains various code examples and exercises related to programming concepts such as loops, conditional statements.
 
