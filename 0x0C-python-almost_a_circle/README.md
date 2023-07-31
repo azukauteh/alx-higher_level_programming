@@ -1,4 +1,5 @@
 # 0x0C. Python - Almost a Circle
+![Author](https://img.shields.io/badge/Author-AzukaUteh-blue.svg)
 
 This directory contains Python programs written for ALX_africa Software Engineering, 0x0C. Python - Almost a Circle project. The code in this project focuses on object-oriented programming concepts in Python, with a specific emphasis on classes, inheritance, and data encapsulation.
 
@@ -24,5 +25,3 @@ base_instance = Base()
 
 Make sure to have the relevant files (`base.py` and `__init__.py`) in your working directory or in a location that can be accessed by your Python script.
 
-## Author
-This project is authored by Azuka Uteh.
