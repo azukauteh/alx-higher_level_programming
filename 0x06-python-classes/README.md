@@ -4,17 +4,47 @@ This directory contains exercises and examples related to Python classes and obj
 
 ## Table of Contents
 - [Getting Started](#getting-started)
+- [Requirement] (#Requirement)
 - [Key Concepts](#key-concepts)
 - [Repository Structure](#repository-structure)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Getting Started
 
-To get started with this module, ensure that you have Python installed on your system. You can download Python from the official website: [python.org](https://www.python.org/).
+It is recommended to have a code editor or integrated development environment (IDE) for writing and running Python code. Allowed editors: vi, vim, emacs
 
-It is recommended to have a code editor or integrated development environment (IDE) for writing and running Python code. Some popular choices include Visual Studio Code, PyCharm, and Atom.
+## Requirement
+
+# Python Scripts
+
+Allowed editors: vi, vim, emacs
+
+All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
+
+All your files should end with a new line
+
+The first line of all your files should be exactly #!/usr/bin/python3
+
+Your code should use the pycodestyle (version 2.8.*)
+
+All your files must be executable
+
+The length of your files will be tested using wc
+
+# C Scripts
+
+Allowed editors: vi, vim, emacs
+
+All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+
+All your files should end with a new line
+
+Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+
+You are not allowed to use global variables
+
+No more than 5 functions per file
 
 ## Key Concepts
 
@@ -40,13 +70,13 @@ The directory is organized as follows:
 
 ```
 /
-├── examples/
-│   ├── example1.py
-│   ├── example2.py
-│   └── ...
-├── exercises/
-│   ├── exercise1.py
-│   ├── exercise2.py
+├── 0-square.py
+│   ├── 1-square.py
+│   ├── 2-square.py
+│   └── 3-square.py
+├── 4-square.py
+│   ├── 5-square.py
+│   ├── 6-square.py
 │   └── ...
 └── README.md
 ```
@@ -67,4 +97,4 @@ The directory is organized as follows:
 
 5. Test your solutions by running the exercise files using Python. You can execute the command `python3 exercise1.py` (replace `exercise1.py` with the exercise file you want to run).
 
-6. Repeat steps 4-5 for each exercise in the `exercises` directory until
+6. Repeat steps 4-5 for each exercise in the `exercises` directory .
