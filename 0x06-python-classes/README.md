@@ -1,5 +1,8 @@
 # 0x06. Python - Classes and Objects
 
+![Author](https://img.shields.io/badge/Author-AzukaUteh-blue.svg)
+
+
 This directory contains exercises and examples related to Python classes and objects. In this module, you will learn about the fundamental concepts of object-oriented programming (OOP) in Python and how to create and use classes and objects.
 
 ## Table of Contents
