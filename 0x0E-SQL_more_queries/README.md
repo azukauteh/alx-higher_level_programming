@@ -15,7 +15,7 @@ Welcome to the "0x0E. SQL - More queries" project! In this module, we'll dive de
 - [Aggregation and Analysis](#aggregation-and-analysis)
 - [Project Files](#project-files)
 - [Resources](#resources)
-- [More Info](#More Info)
+- [More Info](#More-Info)
 
 ## Introduction
 
