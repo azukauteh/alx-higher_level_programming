@@ -1,6 +1,9 @@
 
 # 0x09-python-everything_is_object
 
+![Author](https://img.shields.io/badge/Author-Azuka%20Uteh-blue.svg)
+
+
 This directory contains the solutions for the "0x09-python-everything_is_object" project, which is part of the curriculum of ALX_africa Software Engineering School.
 
 ## Description
@@ -31,7 +34,4 @@ The repository contains the following files:
 - Only one line
 - No Shebang
 
-## Authors
-
-This project was implemented by Azuka Uteh.
 
