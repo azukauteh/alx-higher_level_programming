@@ -12,7 +12,7 @@ Welcome to the "0x12. JavaScript - Warm Up" repository. This collection of JavaS
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Exercises](#exercises)
+- [Task](#Task)
 - [Requirements](#Requirements)
 - [More Info](#More-Info)
 
