@@ -12,6 +12,7 @@ Welcome to the "0x12. JavaScript - Warm Up" repository. This collection of JavaS
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Badge](#Badge)
 - [Task](#Task)
 - [Requirements](#Requirements)
 - [More Info](#More-Info)
@@ -49,6 +50,15 @@ Each exercise is encapsulated within its respective directory and accompanied by
 5. Validate your code by executing it (e.g., `./4-concat.js c cool`) and examine the output.
 
 6. Once you've successfully addressed the exercise, proceed to the subsequent exercise by navigating to its directory and replicating the same structured process.
+
+
+## Badge
+The source code for this project is standard styled.
+
+[![js-semistandard-style](https://raw.githubusercontent.com/standard/semistandard/master/badge.svg)](https://github.com/standard/semistandard)
+
+[![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg)](https://github.com/standard/semistandard)
+
 
 ## Exercises
 
