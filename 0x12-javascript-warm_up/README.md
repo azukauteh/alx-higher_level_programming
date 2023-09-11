@@ -111,9 +111,9 @@ This repository comprises a comprehensive set of warm-up exercises, each thought
 $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 
 $ sudo apt-get install -y nodejs
-
-Install semi-standard
-
+```
+- Install semi-standard
+```
 $ sudo npm install semistandard --global
 
 ```
