@@ -88,12 +88,14 @@ Throughout the module, you will find a series of exercises designed to reinforce
 - Install Node 14
 ```bash
 $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-
+```
+```bash
 $ sudo apt-get install -y nodejs
 ```
 - Install semi-standard
 ```bash
 $ sudo npm install semistandard --global
-
+```
+```bash
 $ semistandard --fix nameofFlile.js
 ```
