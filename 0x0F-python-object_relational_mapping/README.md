@@ -16,18 +16,31 @@ In this project, we explore how to use an ORM library (like SQLAlchemy) to inter
 The project is organized into the following directories:
 
 - ** 0-select_states.py **: Script that lists all states from the database hbtn_0e_0_usa.
+
 - ** 1-filter_states.py **: Script that lists all states with a name starting with N (upper N) from the database hbtn_0e_0_usa:.
+
 - ** 2-my_filter_states.py **: Script that takes in an argument and displays all values in the states table of hbtn_0e_0_usa .
+
 - ** 3-my_safe_filter_states.py**:  SQL Injection...
+
 - ** 4-cities_by_state.py **: script that lists all cities from the database hbtn_0e_4_usa
+
 - ** 5-filter_cities.p **: script that takes in the name of a state as an argument and lists all cities( All cities by state)
+
 - ** model_state.py **: python file that contains the class definition of a State and an instance Base = declarative_base():
+
 - ** 7-model_state_fetch_all.py **: Script that lists all State objects from the database hbtn_0e_6_usa
+
 - ** 8-model_state_fetch_first.py **: Script that prints the first State object from the database hbtn_0e_6_usa
+
 - ** 9-model_state_filter_a.py **: Script that lists all State objects that contain the letter a from the database hbtn_0e_6_usa.
+
 - ** 10-model_state_my_get.py **: Script that prints the State object with the name passed as argument from the database hbtn_0e_6_usa
+
 - ** 11-model_state_insert.py **:  script that adds the State object “Louisiana” to the database hbtn_0e_6_usa.
+
 - ** 12-model_state_update_id_2.py **: script that changes the name of a State object from the database hbtn_0e_6_usa
+
 - ** 13-model_state_delete_a.py **: script that deletes all State objects with a name containing the letter a from the database hbtn_0e_6_usa
 
 
@@ -67,12 +80,12 @@ The project is organized into the following directories:
 ## Usage
 
 1. Clone the repository:
-
+  
    ```bash
    git clone https://github.com/azukauteh/alx-higher_level_programming.git
    ```
-
-```bash
+  
+   ```bash
    cd 0x0F-python-object-relational-mapping
    ```
 
@@ -84,6 +97,7 @@ The project is organized into the following directories:
 
 3. Run the main script to demonstrate ORM functionality:
 
+
    ```bash
    python main.py
    ```
@@ -92,7 +106,7 @@ The project is organized into the following directories:
 
 ## Testing
 
-To run the test cases, navigate to the `tests/` directory and execute the test script:
+- To run the test cases, navigate to the `tests/` directory and execute the test script:
 
 ```bash
 cd tests
@@ -117,7 +131,7 @@ To create a Python Virtual Environment, allowing you to install specific depende
  source venv/bin/activate
 ```
 - Install MySQLdb module version 2.0.x
-   For installing MySQLdb, you need to have MySQL installed: How to install MySQL 8.0 in Ubuntu 20.04
+For installing MySQLdb, you need to have MySQL installed: How to install MySQL 8.0 in Ubuntu 20.04
 
 ```bash
  sudo apt-get install python3-dev
@@ -132,7 +146,7 @@ To create a Python Virtual Environment, allowing you to install specific depende
  sudo pip3 install mysqlclient
 ```
 
- python3
+-  python3
 >>> import MySQLdb
 >>> MySQLdb.version_info 
 (2, 0, 3, 'final', 0)
@@ -141,11 +155,11 @@ Install SQLAlchemy module version 1.4.x
 ```bash
  sudo pip3 install SQLAlchemy
 ```
-
- python3
+- python3
 >>> import sqlalchemy
 >>> sqlalchemy.__version__ 
 '1.4.22'
+
 - Also, you can have this warning message:
 
 ```
