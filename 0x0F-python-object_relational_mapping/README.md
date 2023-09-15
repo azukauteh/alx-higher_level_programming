@@ -3,17 +3,6 @@
 ---
 # 0x0F. Python - Object-relational Mapping
 
-  _______           _        _______  _______ 
- (  __   )|\     /|( (    /|(  __   )(  ____ \
- | (  )  |( \   / )|  \  ( || (  )  || (    \/
- | | /   | \ (_) / |   \ | || | /   || (_____ 
- | (/ /) |  \   /  | (\ \) || (/ /) |(_____ \
- |   / | |   ) (   | | \   ||   / | |      ) )
-    /  ) (_/     \_/ )  \  ||  /  ) |/\____) )
-   (__/            /    )_)|_/   )_)\______/ 
-                   (____/                    
-
-
 
 
 ## Overview
@@ -119,39 +108,41 @@ The test cases ensure the correct implementation of the ORM models and operation
 To create a Python Virtual Environment, allowing you to install specific dependencies for this python project, we will install venv:
 
 ```bash
-$ sudo apt-get install python3.8-venv
+ sudo apt-get install python3.8-venv
 ```
 ```bash
-$ python3 -m venv venv
+ python3 -m venv venv
+
+```bash
+ source venv/bin/activate
+```
+- Install MySQLdb module version 2.0.x
+   For installing MySQLdb, you need to have MySQL installed: How to install MySQL 8.0 in Ubuntu 20.04
+
+```bash
+ sudo apt-get install python3-dev
 ```
 ```bash
-$ source venv/bin/activate
-```
-Install MySQLdb module version 2.0.x
-For installing MySQLdb, you need to have MySQL installed: How to install MySQL 8.0 in Ubuntu 20.04
-```bash
-$ sudo apt-get install python3-dev
+ sudo apt-get install libmysqlclient-dev
 ```
 ```bash
-$ sudo apt-get install libmysqlclient-dev
+ sudo apt-get install zlib1g-dev
 ```
 ```bash
-$ sudo apt-get install zlib1g-dev
+ sudo pip3 install mysqlclient
 ```
-```bash
-$ sudo pip3 install mysqlclient
-```
-...
-$ python3
+
+ python3
 >>> import MySQLdb
 >>> MySQLdb.version_info 
 (2, 0, 3, 'final', 0)
 Install SQLAlchemy module version 1.4.x
+
 ```bash
-$ sudo pip3 install SQLAlchemy
+ sudo pip3 install SQLAlchemy
 ```
 
-$ python3
+ python3
 >>> import sqlalchemy
 >>> sqlalchemy.__version__ 
 '1.4.22'
