@@ -1,4 +1,4 @@
-# JavaScript Learning Objectives with Examples
+# 0x14. JavaScript - Web scraping
 
 
 ## Table of Contents
@@ -16,7 +16,7 @@
 
 ## Introduction
 
-Welcome to the world of JavaScript programming! This guide outlines the key learning objectives you'll achieve by the end of this project. JavaScript is a versatile and powerful programming language used for web development, server-side scripting, and more. It's essential to grasp its fundamentals to become a proficient developer.
+Welcome to  0x14-javascript-web_scraping directory.! This README outlines the key learning objectives you'll achieve by the end of this project. JavaScript is a versatile and powerful programming language used for web development, server-side scripting, and more. It's essential to grasp its fundamentals to become a proficient developer.
 
 ## Learning Objectives
 
@@ -50,11 +50,11 @@ By the end of this project, you will have the knowledge and skills to:
 
 JavaScript is amazing for several reasons:
 
-- **Versatility**: It's a multi-paradigm language suitable for both frontend and backend development.
+- Versatility : It's a multi-paradigm language suitable for both frontend and backend development.
 
-- **Widespread Usage**: JavaScript is the de facto language of the web, ensuring a vast job market and community support.
+- Widespread Usage : JavaScript is the de facto language of the web, ensuring a vast job market and community support.
 
-- **Dynamic and Interactive**: It allows you to create dynamic and interactive web applications, enhancing user experiences.
+- Dynamic and Interactive : It allows you to create dynamic and interactive web applications, enhancing user experiences.
 
 ## Manipulating JSON Data
 
