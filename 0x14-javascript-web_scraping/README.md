@@ -1,7 +1,8 @@
 # JavaScript Learning Objectives with Examples
 
+![Alt Text](https://images.pexels.com/photos/1687141/pexels-photo-1687141.jpeg)
 
-![JavaScript](https://images.pexels.com/photos/1687141/pexels-photo-1687141.jpeg)
+
 
 ## Table of Contents
 
