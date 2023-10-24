@@ -16,4 +16,3 @@ fs.writeFile(filePath, content, error => {
     console.log(error); // Print the error object if an error occurs
   }
 });
-
