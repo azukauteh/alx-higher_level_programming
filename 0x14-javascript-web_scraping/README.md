@@ -1,8 +1,5 @@
 # JavaScript Learning Objectives with Examples
 
-![Alt Text](https://images.pexels.com/photos/1687141/pexels-photo-1687141.jpeg)
-
-
 
 ## Table of Contents
 
@@ -15,7 +12,7 @@
 - [Example: JSON Manipulation](#example-json-manipulation)
 - [Example: Making an API Request](#example-making-an-api-request)
 - [Example: Reading and Writing Files](#example-reading-and-writing-files)
-- [Resources](#resources)
+- [More info](#more info)
 
 ## Introduction
 
@@ -128,4 +125,26 @@ fs.writeFile("output.txt", "Hello, world!", (err) => {
   console.log("Data written to output.txt");
 });
 ```
+## More Info
+
+- Install Node 14
+```bash
+$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+```
+## Install semi-standard
+
+- Documentation
+```bash
+$ sudo npm install semistandard --global
+```
+## Install request module and use it
+
+- Documentation
+```bash
+$ sudo npm install request --global
+$ export NODE_PATH=/usr/lib/node_modules
+```
+
+Notes: Request module has been deprecated since February 2020 - the team is considering alternative to replace this module - however, it’s a really simple and powerful module for practicing web-scraping in JavaScript (and still used a lot in the industry).
 
