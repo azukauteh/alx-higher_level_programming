@@ -15,7 +15,6 @@ request(url, (error, response, body) => {
     const film = JSON.parse(body);
     console.log(film.title);
     console.log('Characters:');
-
     film.characters.forEach(characterUrl => {
       request(characterUrl, (charError, charResponse, charBody) => {
         if (charError) {
